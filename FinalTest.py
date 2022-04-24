@@ -1,4 +1,5 @@
 import unittest
+
 def FirstIsntChar(text):
   sChars = '"!@#$%^&*()-+?_=,<>/'
   if(not text[0] in sChars):
